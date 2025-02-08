@@ -1,0 +1,18 @@
+.blind {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0); /* absolute상태에서 좌표 */
+    margin: -1px;
+}
+.pc-none {
+    display: none;
+}
+body {
+    font-family: "Archivo" , "Noto Sans KR", serif;
+    transition: .3s;
+    &.dark{
+        background: #000;
+    }
+}
+.card__content-mask {display: none;}

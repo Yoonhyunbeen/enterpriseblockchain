@@ -1,0 +1,22 @@
+.footer {
+    background: #000;
+    position: relative;
+    color: #fff;
+    padding: 0 100px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 58px 0px;
+    }
+    &__info {
+        &-text {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &-copyright {
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+    }
+}
