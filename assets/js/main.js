@@ -258,7 +258,7 @@ const slideasset = gsap.timeline({
         start: 'top top',
         end: 'bottom 100%',
         scrub: 0,
-        markers: true,
+        //markers: true,
     }
 });
 slideasset
